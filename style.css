@@ -1,0 +1,167 @@
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    justify-content: space-between;
+}
+.main1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.main .main-1{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;;
+}
+.main .main-1 img{
+    width: 50px;
+      
+}
+.main .main-2{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    align-items: center;
+}
+.new {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.new .nleft{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.new .nright{
+    display: flex;
+    justify-content:right;
+}
+.demo .demo1{
+    display: flex;
+    justify-content: space-between;
+    font-size: small;
+}
+.child .children{
+    
+    height: 150px;
+    font-style: inherit;
+    background-image: url(images/bg1.webp);
+    justify-content: center;
+    text-align: center;
+    padding-top: 30px;
+}
+.par{
+    font-size: small;
+}
+.child .children .born{
+    display: flex;
+    font-size: large;
+    gap: 10px;
+    justify-content: center;
+    text-align: center;
+}
+.baby{
+    background-color: black;
+    width: 55px;
+    height: 30px;   
+}
+.baby a{
+    color: white;
+    text-decoration: none;
+}
+.baby:hover{
+    opacity: 0.6;
+}
+.winter1{
+    
+    height: 150px;
+    font-style: inherit;
+    background-image: url(images/bg-2.webp);
+    justify-content: center;
+    text-align: center;
+    padding-top: 30px;
+}
+.winter2{
+    display: flex;
+    font-size: large;
+    gap: 10px;
+    justify-content: center;
+    text-align: center;
+}
+.shop{
+    display: flex;
+    gap: 7px;
+}
+.shop :hover{
+    transform: scale(1.2);
+    }
+.scroll{
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer{
+    width: 100%;
+    height: 500px;
+    background-color: #e4e4e4;
+}
+.list{
+    display: flex;
+    gap: 10px;
+    list-style-type: none;
+    justify-content: space-between;
+}
+.list :hover{
+    text-transform: capitalize;
+}
+.icons{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+.icons :hover{
+    transform: scale(1.4);
+}
+.footer .image{
+    display: flex;
+    justify-content: center;
+}
+.end{
+    display: flex;
+    justify-content: center;  
+}
+.model{
+    display: flex;
+}
+.upicon{
+    width: 50px;
+    right: 30px;
+    bottom: 30px;
+    z-index: 999px;
+    position: fixed;
+}
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
