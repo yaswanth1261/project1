@@ -34,7 +34,7 @@
 .new .nleft{
     display: flex;
     gap: 20px;
-    justify-content: center;
+    justify-content:space-between;
     font-size: large;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -150,6 +150,10 @@
     bottom: 30px;
     z-index: 999px;
     position: fixed;
+}
+
+.new #ladie1:hover #ladie-list{
+    display: block;
 }
 
 
